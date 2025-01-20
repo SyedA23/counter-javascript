@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="counter-container">
+        <h1>Click Counter</h1>
+        <p class="text">
+          Click counter online.click '+' button or space to count:
+        </p>
+        <section class="buttons">
+          <div class="input-container">
+            <input type="number" id="counter" value="0" min="0" />
+            <button class="clear-btn" onclick="clearInput()">&#10006;</button>
+          </div>
+          <div>
+            <button id="increment-btn" onclick="increment()">+</button>
+          </div>
+          <div>
+            <button id="decrement-btn" onclick="decrement()">-</button>
+          </div>
+        </section>
+      </section>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
